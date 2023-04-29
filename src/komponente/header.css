@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.glavni{
+    background-image: url("Leptir.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 900px;
+    height: 400px;
+    gap: 200px;
+    position: relative;
+    top: 25%;
+    left: 20%;
+    background-color: #cccc;
+    box-shadow: 10px 10px 10px black;
+}
+.logiIN{
+    border:1px solid;
+    width: 300px;
+    height: 220px;
+    border: none;
+    animation: myAnim1 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim1 {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+input{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(228, 191, 253);
+}
+h1{
+    font-variant-caps: all-small-caps;
+    margin-bottom: 20px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 7px;
+}
+.dugme2{
+    margin-left: 90px;
+}
+.facebook{
+    color: rgb(15, 17, 19);
+    font-size: 35px;
+    padding: 5px;
+    cursor: pointer;
+    animation: anim 1s ease 0s 1 normal forwards;
+}
+.facebook:hover{
+	color: blue;
+}
+@keyframes anim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.messenger{
+    font-size: 35px;
+    padding: 5px;
+    cursor: pointer;
+    animation: anim1 1s ease 0s 1 normal forwards;
+}
+@keyframes anim1 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.insta{
+    font-size: 35px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    animation: anim2 1s ease 0s 1 normal forwards;
+}
+.insta:hover{
+	color: #f55d10;
+}
+@keyframes anim2 {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.google{
+    font-size: 35px;
+    padding: 5px;
+    cursor: pointer;
+    animation: anim1 1s ease 0s 1 normal forwards;
+}
+.youtube{
+    font-size: 35px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    animation: anim3 1s ease 0s 1 normal forwards;
+}
+.youtube:hover{
+	color: red;
+}
+@keyframes anim3 {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.buttonDiv{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+	width: 280px;
+	border: none;
+}
