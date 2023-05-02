@@ -4,7 +4,7 @@ import Header from './komponente/header.js'
 function App() {
   return (
     <div>
-      <Header />
+       <Header/>
     </div>
   );
 }

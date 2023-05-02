@@ -77,12 +77,6 @@
 		transform: translateX(0px);
 	}
 }
-input{
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 18px;
-    background-color: rgb(228, 191, 253);
-}
 h1{
     font-variant-caps: all-small-caps;
     margin-bottom: 20px;

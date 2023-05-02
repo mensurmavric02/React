@@ -6,11 +6,12 @@ import {BsInstagram} from "react-icons/bs";
 import {FaGoogle} from 'react-icons/fa'
 import {AiFillYoutube} from 'react-icons/ai'
 import Button from './button';
+import Input from './input'
 
-const Header = ({tekst, text}) => {
+const Header = () => {
     return(
         <div className='glavni'>
-            <div className='div2'>
+            <div className='div2'>  
                 <div>
                     <h1>Login in forma</h1> 
                     <FaFacebookF className='facebook'/>
@@ -21,9 +22,9 @@ const Header = ({tekst, text}) => {
                 </div>
                 <div className='logiIN'>
                     <h2>Email</h2>
-                    <input type='email'></input>
+                    <Input type={'email'}/>
                     <h2>Password</h2>
-                    <input type='password'></input><br></br>
+                    <Input type={'password'}/><br></br>
                 <div className='buttonDiv'>
                     <Button text={'Login'} />
                     <Button text={'Cancel'} />
