@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.count{
+    margin-top: 15%;
+    margin-left: 35%;
+    border: 1px solid;
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px 10px green;
+    border: none;
+    background-color: white;
+}
+.dugmence{
+    border: 1px solid;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 80px;
+    font-size: 18px;
+}
